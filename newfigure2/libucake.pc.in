@@ -1,0 +1,13 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+
+Name: libucake
+Description: Optimized C library for ucake
+URL:
+Version: @PACKAGE_VERSION@
+Cflags: -I${includedir}
+Libs.private: @SECP_LIBS@
+Libs: -L${libdir} -lucake
+

@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "__string": "cpp",
+        "cstring": "cpp",
+        "memory": "cpp",
+        "utility": "cpp",
+        "kex_api.h": "c",
+        "myopenssl.h": "c"
+    }
+}
